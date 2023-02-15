@@ -8,3 +8,4 @@
 - Créer un minimum de 10 commits
 - Déployer le site local vers un serveur distant
 - ajouter menu
+- site : http://aecweb1.sg-host.com/
