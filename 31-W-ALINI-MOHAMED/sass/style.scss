@@ -14,18 +14,33 @@ Text Domain: 31w-eddy-martin
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+body {
+    background-color: rgb(174, 175, 179);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #111cb0;
+}
 
-/* -------------------------- NORMALIZE */
-@import "normalize/normalize";
-@import "normalize/boxsizing";
+footer{
+    text-align: center;
+}
+img{
+    float: left;
+}
+
+ /* ------------------NORMALIZE */
+ @import "normalize/normalize";
+ @import "normalize/boxsizing";
+
+ /* ------------------COMPOSANT */
+ @import "composant/entete";
+ @import "composant/blockflex";
 
 
-/* -------------------------- BASE */
-@import "base/heading";
-@import "base/markdown";
 
-/* -------------------------- COMPOSANT */
-@import "composant/entete";
-@import "composant/blocflex";
-
+ /* ------------------BASE */
+ @import "base/heading";
+ @import "base/markdown";
+ @import "base/markdown";
 

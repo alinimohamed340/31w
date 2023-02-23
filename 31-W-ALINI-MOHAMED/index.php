@@ -14,8 +14,8 @@ if (have_posts()):
 
         <?php 
         // the_content();
-        // the_excerpt();
-        echo wp_trim_words(get_the_excerpt(), 4);
+        // the_excerpt();       /* Permet d'afficher un résumé (le petit extrait qu'on retrouve à droite sur wordpress)  -->
+        echo wp_trim_words(get_the_excerpt(), 4); //get_the_excerpt va retourner une chaîne de caractères
     endwhile;
 endif;
 ?>   

@@ -1,12 +1,13 @@
-
 # Exercice #2
-## Améliorer la stucture générale du thème
-### Auteur: Eddy Martin
+## Améliorer la structure générale du thème
+### Auteur: Said Mehdi, Amiri
 #### Objectifs
 - Formater en scss l'affichage de fichier markdown
-- Créer des modèles pour afficher des archives d'article
-- Améliorer de module front-page.php
+- Créer des modèles pour afficher des archives d'articles
+- Améliorer le module front-page.php
 - Création de menu
-- Créer un site adaptatif en utilisant l'approche mobile-first
+- Créer un site adaptative en utilisant l'approche mobile-first
 - Créer un minimum de 10 commits
-- Déployer le site local vers un serveur distant
+- Déplouer le site local vers un serveur distant
+
+- lien site: https://aecweb2.sg-host.com/

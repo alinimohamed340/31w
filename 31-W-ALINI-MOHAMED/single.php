@@ -1,4 +1,6 @@
 <?php
+/***Va permettre d'afficher un seul article****/ 
+
 /**
     Modèle index.php représente le modèle par défaut du thème
 */
@@ -15,4 +17,3 @@ endif;
 ?>   
 </main> 
 <?php get_footer(); ?>
-
