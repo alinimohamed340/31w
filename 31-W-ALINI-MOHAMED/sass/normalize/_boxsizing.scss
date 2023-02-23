@@ -1,5 +1,8 @@
-_::before,
-*::after {
+
+/* Définition du box sizing */ 
+
+::before,
+::after {
 box-sizing: inherit;
 }
 

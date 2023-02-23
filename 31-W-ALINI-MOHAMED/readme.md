@@ -1,12 +1,12 @@
+
 # Exercice #2
-## Ameliorer la structure generale du theme
-### Auteur: alini mohamed
+## Améliorer la stucture générale du thème
+### Auteur: Eddy Martin
 #### Objectifs
-- formater en scss laffichage de fichier markdown
-- cree des modeles pour afficher des archives d'article
-- Ameliorer le module front-page.php
-- Creation de menu
-- cree un site adaptatif en utilisant lapproche mobile-first
-- creer un minimum de 10 comits
-- deployer le site local vers un server distant
-fewfewfew
+- Formater en scss l'affichage de fichier markdown
+- Créer des modèles pour afficher des archives d'article
+- Améliorer de module front-page.php
+- Création de menu
+- Créer un site adaptatif en utilisant l'approche mobile-first
+- Créer un minimum de 10 commits
+- Déployer le site local vers un serveur distant

@@ -15,11 +15,7 @@ Text Domain: 31w-eddy-martin
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-body {
-  background-color: rgb(181, 241, 50);
-}
-
-/* ------------------NORMALIZE */
+/* -------------------------- NORMALIZE */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -329,8 +325,9 @@ template {
   display: none;
 }
 
-_::before,
-*::after {
+/* Définition du box sizing */
+::before,
+::after {
   box-sizing: inherit;
 }
 
@@ -338,41 +335,7 @@ html {
   box-sizing: border-box;
 }
 
-/* ------------------COMPOSANT */
-.logomenu {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menu-entete-container .menu {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.menu-entete-container .menu .menu-item a {
-  padding: 3px 5px;
-  color: #555;
-}
-.menu-entete-container .menu .menu-item a:hover {
-  color: greenyellow;
-}
-
-/* ------------------BASE */
-.blocflex {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.blocflex article {
-  border: 1px solid #aaa;
-  flex: 1 0 300px;
-  padding: 5px;
-  margin: 5px;
-}
-
-/* ------------------BASE */
+/* -------------------------- BASE */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
 }
@@ -419,4 +382,44 @@ h6 {
 
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* -------------------------- COMPOSANT */
+.logomenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-entete-container {
+  flex: 1;
+}
+.menu-entete-container .menu {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: auto;
+}
+.menu-entete-container .menu .menu-item {
+  flex: 1 0 50px;
+}
+.menu-entete-container .menu .menu-item a {
+  padding: 3px 5px;
+  color: #555;
+}
+.menu-entete-container .menu .menu-item a:hover {
+  color: #0f0;
+}
+
+.blocflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blocflex article {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  flex: 1 0 300px;
+}
