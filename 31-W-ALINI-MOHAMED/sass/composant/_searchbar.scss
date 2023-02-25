@@ -1,0 +1,53 @@
+/* main {
+  .recherche {
+      article {
+          h5 {
+              a {
+                  color: #333;
+                  text-decoration: none;
+                  &:hover {
+                      color: #0073aa;
+                  }
+              }
+          }
+          hr {
+              border-top: 1px solid #ddd;
+              margin: 1.5em 0;
+          }
+      }
+  }
+}
+ */
+
+ .recherche {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  .recherche__input {
+      border: none;
+      font-size: 16px;
+      outline: none;
+      padding: 5px 10px;
+      width: 70%;
+      &:focus {
+          border-color: rgb(8, 201, 37);
+      }
+  }
+  .recherche__bouton {
+      background-color: rgb(115, 109, 243);
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 16px;
+      padding: 5px 10px;
+      &:hover {
+          background-color: rgb(8, 201, 37);
+      }
+  }
+  .recherche__icone {
+      font-size: 20px;
+  }
+}

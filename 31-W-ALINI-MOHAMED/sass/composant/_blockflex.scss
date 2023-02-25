@@ -1,51 +1,19 @@
-.blocflex{
-  display : flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  article {
-      margin : 10px;
-      padding : 5px;
-      border : 1px solid #aaa;
-      flex: 1 0 300px;
-  }
-}
-
-//  FLEX BOX DE CHAT GPT
-/* .blocflex {
+/* Ajout de bordures rouges et d'effets visuels */
+.blocflex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #f2f2f2;
-  padding: 10px;
-  box-sizing: border-box;
 }
-
 .blocflex article {
-  color: black;
-  border: 1px solid #aaaaaa;
-  flex: 1 0 300px;
-  padding: 10px;
   margin: 10px;
-  background-color: #fff;
-  box-sizing: border-box;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.2s ease-in-out;
+  padding: 5px;
+  border: 1px solid #aaa;
+  flex: 1 0 300px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
 }
-
 .blocflex article:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-} */
-
-
-/* .blocflex {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-.blocflex article {
-    border: 1px solid #aaa;
-    flex: 1 0 300px;
-    padding: 5px;
-    margin: 5px;
-  }
-   */
+  transform: scale(1.05);
+  border-color: red;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}

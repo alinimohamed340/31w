@@ -17,7 +17,7 @@ if (have_posts()):
         </article>
         <hr>
     <?php endwhile;
-endif; ?>  
+endif; ?>
 </section> 
 </main> 
 <?php get_footer(); ?>
