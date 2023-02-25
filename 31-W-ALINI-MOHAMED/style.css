@@ -20,7 +20,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: #111cb0;
+  color: #030416;
 }
 
 footer {
@@ -513,6 +513,7 @@ html {
 .blocflex article {
   margin: 10px;
   padding: 5px;
+  background-color: rgb(40, 129, 237);
   border: 5px solid #010008;
   flex: 1 0 300px;
   box-shadow: 2px 2px 4px rgba(8, 19, 233, 0.4);
@@ -564,7 +565,7 @@ html {
   border-color: rgb(8, 201, 37);
 }
 .recherche .recherche__bouton {
-  background-color: rgb(115, 109, 243);
+  background-color: rgb(19, 251, 77);
   border: none;
   border-radius: 5px;
   color: #fff;
@@ -572,7 +573,7 @@ html {
   padding: 5px 10px;
 }
 .recherche .recherche__bouton:hover {
-  background-color: rgb(8, 201, 37);
+  background-color: rgb(78, 109, 233);
 }
 .recherche .recherche__icone {
   font-size: 20px;
