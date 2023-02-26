@@ -1,13 +1,62 @@
-ul,ol{}
-ul li {}
-ol li {}
-
-strong,  b {//: le texte en gras
-
-}
-em , i { //le texte en italique
-}
-a{} 
-
-code {}
-hr {}
+/* Centrer le contenu au milieu de la page */
+body {
+    text-align: center;
+  }
+  
+  /* Agrandir la taille de la police */
+  body {
+    font-size: 1.2em;
+  }
+  
+  /* Utiliser une police d'écriture avec des lettres attachées */
+  body {
+    font-family: 'cursive';
+  }
+  
+  /* Liste à puces */
+  ul, ol {
+    list-style: disc;
+    margin-left: 1.5em;
+  }
+  
+  /* Éléments de la liste à puces */
+  ul li, ol li {
+    margin: 0.5em 0;
+  }
+  
+  /* Texte en gras */
+  strong, b {
+    font-weight: bold;
+  }
+  
+  /* Texte en italique */
+  em, i {
+    font-style: italic;
+  }
+  
+  /* Lien hypertexte */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  /* Lien hypertexte survolé */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Code */
+  code {
+    font-family: monospace;
+    background-color: #f7f7f7;
+    padding: 0.1em 0.5em;
+    border-radius: 3px;
+  }
+  
+  /* Ligne horizontale */
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+  }
+  

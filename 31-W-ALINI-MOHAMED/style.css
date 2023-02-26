@@ -16,11 +16,15 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 body {
-  background-color: rgb(166, 175, 207);
+  background-color: rgb(225, 231, 253);
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: #030416;
+  color: #010801;
+}
+
+h1 {
+  color: rgb(17, 4, 4);
 }
 
 footer {
@@ -67,6 +71,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  color: black;
 }
 
 /* Grouping content
@@ -375,6 +380,7 @@ html {
 .menu-entete-container .menu .menu-item a {
   padding: 3px 5px;
   color: #f9f1f1;
+  font-size: large;
 }
 .menu-entete-container .menu .menu-item a:hover {
   color: #0f0;
@@ -503,7 +509,6 @@ html {
 
 
 */
-/* Ajout de bordures rouges et d'effets visuels */
 .blocflex {
   display: flex;
   justify-content: space-between;
@@ -513,39 +518,24 @@ html {
 .blocflex article {
   margin: 10px;
   padding: 5px;
-  background-color: rgb(167, 222, 241);
+  background-color: rgba(189, 233, 248, 0.761);
   border: 5px solid #010008;
   flex: 1 0 300px;
   box-shadow: 2px 2px 4px rgba(8, 19, 233, 0.4);
   transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
 }
 
 .blocflex article:hover {
   transform: scale(1.05);
-  border-color: red;
+  border-color: rgb(252, 33, 13);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
-/* main {
-  .recherche {
-      article {
-          h5 {
-              a {
-                  color: #333;
-                  text-decoration: none;
-                  &:hover {
-                      color: #0073aa;
-                  }
-              }
-          }
-          hr {
-              border-top: 1px solid #ddd;
-              margin: 1.5em 0;
-          }
-      }
-  }
+article {
+  color: black;
 }
- */
+
 .recherche {
   display: flex;
   align-items: center;
@@ -626,4 +616,128 @@ h6 {
 
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/* Centrer le contenu au milieu de la page */
+body {
+  text-align: center;
+}
+
+/* Agrandir la taille de la police */
+body {
+  font-size: 1.2em;
+}
+
+/* Utiliser une police d'écriture avec des lettres attachées */
+body {
+  font-family: "cursive";
+}
+
+/* Liste à puces */
+ul, ol {
+  list-style: disc;
+  margin-left: 1.5em;
+}
+
+/* Éléments de la liste à puces */
+ul li, ol li {
+  margin: 0.5em 0;
+}
+
+/* Texte en gras */
+strong, b {
+  font-weight: bold;
+}
+
+/* Texte en italique */
+em, i {
+  font-style: italic;
+}
+
+/* Lien hypertexte */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Lien hypertexte survolé */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code */
+code {
+  font-family: monospace;
+  background-color: #f7f7f7;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+}
+
+/* Ligne horizontale */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
+
+/* Centrer le contenu au milieu de la page */
+body {
+  text-align: center;
+}
+
+/* Agrandir la taille de la police */
+body {
+  font-size: 1.2em;
+}
+
+/* Utiliser une police d'écriture avec des lettres attachées */
+body {
+  font-family: "cursive";
+}
+
+/* Liste à puces */
+ul, ol {
+  list-style: disc;
+  margin-left: 1.5em;
+}
+
+/* Éléments de la liste à puces */
+ul li, ol li {
+  margin: 0.5em 0;
+}
+
+/* Texte en gras */
+strong, b {
+  font-weight: bold;
+}
+
+/* Texte en italique */
+em, i {
+  font-style: italic;
+}
+
+/* Lien hypertexte */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Lien hypertexte survolé */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code */
+code {
+  font-family: monospace;
+  background-color: #f7f7f7;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+}
+
+/* Ligne horizontale */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
 }/*# sourceMappingURL=style.css.map */

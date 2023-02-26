@@ -1,20 +1,26 @@
-/* Ajout de bordures rouges et d'effets visuels */
 .blocflex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .blocflex article {
   margin: 10px;
   padding: 5px;
-  background-color: rgb(167, 222, 241);
+  background-color: rgba(189, 233, 248, 0.761);
   border: 5px solid #010008;
   flex: 1 0 300px;
   box-shadow: 2px 2px 4px rgba(8, 19, 233, 0.4);
   transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
 }
+
 .blocflex article:hover {
   transform: scale(1.05);
-  border-color: red;
+  border-color: rgb(252, 33, 13);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+article {
+  color: black;
 }

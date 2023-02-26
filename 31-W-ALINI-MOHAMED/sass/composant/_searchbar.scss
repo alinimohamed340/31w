@@ -1,24 +1,3 @@
-/* main {
-  .recherche {
-      article {
-          h5 {
-              a {
-                  color: #333;
-                  text-decoration: none;
-                  &:hover {
-                      color: #0073aa;
-                  }
-              }
-          }
-          hr {
-              border-top: 1px solid #ddd;
-              margin: 1.5em 0;
-          }
-      }
-  }
-}
- */
-
  .recherche {
   display: flex;
   align-items: center;
