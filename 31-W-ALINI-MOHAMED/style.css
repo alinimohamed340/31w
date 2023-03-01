@@ -20,11 +20,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: #010801;
+  color: #01030c;
 }
 
 h1 {
-  color: rgb(17, 4, 4);
+  color: rgb(27, 48, 242);
+}
+
+h2 {
+  color: rgb(27, 48, 242);
 }
 
 footer {
@@ -722,34 +726,41 @@ hr {
 body {
   color: rgb(11, 14, 7);
   text-align: left;
-} /* ------------------layout */
-/*
-mise en page avc display GRID.
-*/
+}
+
+/* ------------------layout */
 .site__entete {
   grid-area: header;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: antiquewhite;
+  background-color: #0a0101;
 }
 
 .site__main {
   grid-area: main;
-  overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+  overflow: hidden;
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: antiquewhite;
+  background-color: rgba(189, 233, 248, 0.761);
+  border: 5px solid #010008;
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: rgb(47, 148, 210);
+  background-color: rgba(189, 233, 248, 0.761);
+  border: 5px solid #010008;
 }
 
-.site { /* ca cest la regle de style pr le body ou un conteneur global global*/
+.site {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas: "header" "aside" "main" "footer";
   row-gap: 50px;
+}
+@media screen and (min-width: 1000px) {
+  .site {
+    grid-template-columns: 20% auto;
+    grid-template-areas: "header header" "aside main" "footer footer";
+  }
 }/*# sourceMappingURL=style.css.map */

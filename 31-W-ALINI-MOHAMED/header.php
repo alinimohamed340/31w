@@ -20,6 +20,10 @@
         <h1><a href="<?php  bloginfo('url'); ?>"><?php  bloginfo('name'); ?></a></h1>  <!-- H1 avec un lien a l'inter -->
         <h2><?php  bloginfo('description'); ?></h2>
     </header>
+    <aside class="site__aside">
+    <h3>Menu Secondaire</h3>
+    </aside>
+    
     
 
 
