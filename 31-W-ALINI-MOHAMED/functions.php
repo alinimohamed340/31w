@@ -51,4 +51,25 @@ function cidweb_modifie_requete_principal( $query ) {
     }
     }
     add_action( 'pre_get_posts', 'cidweb_modifie_requete_principal' );
+
+    /******************************************************************************************************/
+    /** permet de modifier les titre du menu "cours".
+     * @param $title : titre du choix menu
+     * @param $item : le choix global
+     * @param $args : object qui represente la structure de mmenu
+     * @param $depth : Niveau des sous menu
+     */
+
+
+     // ICI QUIL FAUDRA AMELIORER LE BAY PR LE TP 1. CE QUIL Y A EN BAS ICI.
+    /******************************************************************************************************/
+    function perso_menu_item_title($title, $item, $args) {
+        // Remplacer 'nom_de_votre_menu' par l'identifiant de votre menu
+        if($args->menu == 'cours') {
+    // Modifier la longueur du titre en fonction de vos besoins
+    $title = wp_trim_words($title, 3, ' ... ');
+    }
+    return $title;
+    }
+    add_filter('nav_menu_item_title', 'perso_menu_item_title', 10, 3);
                         
