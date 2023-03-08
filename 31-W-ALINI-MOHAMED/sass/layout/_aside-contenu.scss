@@ -44,4 +44,26 @@
       "footer footer";
     }
   }
+
+
+
+  // pour enlever le aside de la page principal front page
+  .no-aside{
+
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    row-gap: 50px;
+  
+    
+    
+    @media screen and (min-width: 1000px ) {
+      grid-template-columns: auto; 
+      grid-template-areas:
+      "header "
+      "main"
+      "footer";
+    }
+  }
  
