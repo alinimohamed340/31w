@@ -513,7 +513,7 @@ html {
 
 
 */
-.blocflex {
+/* .blocflex {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -538,6 +538,32 @@ html {
 
 article {
   color: black;
+}
+ */
+.blocflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blocflex__article {
+  margin: 10px;
+  padding: 5px;
+  border: 5px solid #010008;
+  flex: 1 0 300px;
+  box-shadow: 2px 2px 4px rgba(8, 19, 233, 0.4);
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+
+.blocflex article:hover {
+  transform: scale(1.05);
+  border-color: rgb(252, 33, 13);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.blocflex__galerie {
+  flex: 1 0 100%;
 }
 
 .recherche {
@@ -571,6 +597,31 @@ article {
 }
 .recherche .recherche__icone {
   font-size: 20px;
+}
+
+.menu-cours-container .menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1000px) {
+  .menu-cours-container .menu {
+    flex-direction: column;
+  }
+}
+.menu-cours-container .menu .menu-item {
+  list-style-type: none;
+}
+.menu-cours-container .menu .menu-item a .cours__sigle {
+  padding: 3px;
+}
+.menu-cours-container .menu .menu-item a .cours__titre {
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .menu-cours-container .menu .menu-item a .cours__titre {
+    display: block;
+  }
 }
 
 /* ------------------BASE */
