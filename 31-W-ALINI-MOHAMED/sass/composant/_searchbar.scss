@@ -1,6 +1,7 @@
  .recherche {
   display: flex;
   align-items: center;
+   // flex-wrap: nowrap;   // SI C BAGAY ENLEVE CA !!!!!!!!!!!!!!!!!!!!!!!
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -15,6 +16,8 @@
           border-color: rgb(8, 201, 37);
       }
   }
+
+
   .recherche__bouton {
       background-color: rgb(19, 251, 77);
       border: none;
